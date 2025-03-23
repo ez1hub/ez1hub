@@ -49,7 +49,9 @@
     + git fetch : github에 있는 것들을 Local Repo로 끌고 와서 수정함   
 --------------------------------------------------
 ## 4. github에 올린 파일을 수정하여 다시 올리기   
-1. VScode에서 파일을 수정한다.   
-2. git add & commit을 한다.   
-3. 다음을 입력한다.   
+1. VScode에서 파일을 git pull 한다.
+    + git pull origin main 입력   
+2. VScode에서 파일을 수정한다.   
+3. git add & commit을 한다.   
+4. 다음을 입력한다.   
     + git push origin main   
