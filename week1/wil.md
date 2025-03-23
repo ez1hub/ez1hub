@@ -94,6 +94,16 @@ github 계정, VScode, git 파일을 준비한다.
     + git add <파일명> : 파일 하나씩 등록   
     + git rm --cached < file > : unstaged로 파일 되돌리기
     ![](https://velog.velcdn.com/images/tss9752/post/bfe3afd0-1639-458b-acba-6ef810dc0b0e/image.png)
+    + git rm --cached < file > : unstage로 파일 되돌리기   
+8. git commit을 통해 Local repo로 파일을 옮긴다.   
+    + git commit -m "< commit message >"   
+    + git commit -m "< 커밋 메세지 >"   
+    + commit message는 다른 사람들이 내가 올린 코드를 쉽게 알아볼 수 있도록 하는 일종의 제목이다.   
+9. github에 remote repository를 만든다. 이때 repository의 이름은 owner의 이름과 같게 설정한다.   
+10. git push를 통해 remote repo(github)로 파일을 옮긴다.   
+    + git remote add origin <주소> 입력   
+    + git branch -M main 입력   
+    + git push -u origin main 입력    
 
 7. git commit을 통해 Local repo로 파일을 옮긴다.     
     + git commit -m "커밋 메세지"   
