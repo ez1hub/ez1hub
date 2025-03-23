@@ -32,7 +32,11 @@
     + git add <파일명> : 파일 하나씩 등록   
     + git rm --cached < file > : unstage로 파일 되돌리기   
 8. git commit을 통해 Local repo로 파일을 옮긴다.   
+<<<<<<< HEAD:wil.md
     + git commit -m "< commit message >"   
+=======
+    + git commit -m "< 커밋 메세지 >"   
+>>>>>>> 1aabd936bd8d58c1c1035c1f1a5a549dcc69b8bf:week1/wil.md
     + commit message는 다른 사람들이 내가 올린 코드를 쉽게 알아볼 수 있도록 하는 일종의 제목이다.   
 9. github에 remote repository를 만든다. 이때 repository의 이름은 owner의 이름과 같게 설정한다.   
 10. git push를 통해 remote repo(github)로 파일을 옮긴다.   
@@ -42,7 +46,7 @@
 
 - 추가 용어 정리   
     + git pull : github에 있는 것들을 Working Directory로 끌고 와서 수정함   
-    + git fetch : github에 있는 것들을 Local Repo로 끌고 와서 수정함
+    + git fetch : github에 있는 것들을 Local Repo로 끌고 와서 수정함   
 --------------------------------------------------
 ## 4. github에 올린 파일을 수정하여 다시 올리기   
 1. VScode에서 파일을 수정한다.   
